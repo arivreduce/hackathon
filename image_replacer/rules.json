@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "priority": 100,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "url": "https://ca.slack-edge.com/T05DE2VJ8TH-U05RQ2YL7GE-5e5fd90314d5-512"
+        }
+      },
+      "condition": { "urlFilter": "*.jpeg", "resourceType": ["image"] }
+    },
+    {
+      "id": 2,
+      "priority": 100,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "url": "https://ca.slack-edge.com/T05DE2VJ8TH-U05RQ2YL7GE-5e5fd90314d5-512"
+        }
+      },
+      "condition": { "urlFilter": "*.jpg", "resourceType": ["image"] }
+    },
+    {
+        "id": 3,
+        "priority": 100,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+            "url": "https://ca.slack-edge.com/T05DE2VJ8TH-U05RQ2YL7GE-5e5fd90314d5-512"
+          }
+        },
+        "condition": { "urlFilter": "*.png", "resourceType": ["image"] }
+    },
+    {
+        "id": 4,
+        "priority": 100,
+        "action": {
+          "type": "redirect",
+          "redirect": {
+            "url": "https://ca.slack-edge.com/T05DE2VJ8TH-U05RQ2YL7GE-5e5fd90314d5-512"
+          }
+        },
+        "condition": { "urlFilter": "*.img", "resourceType": ["image"] }
+    }
+]
