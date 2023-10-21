@@ -1,7 +1,13 @@
 {
-  "name": "Catifier",
+  "name": "Nestorfy",
   "version": "1.0",
-  "description": "Replace every image by a cat's image in a website you visit",
+  "description": "Replace every image by an image of Nestor's smiling face in a website you visit",
+  "icons": {
+    "16": "test.png",
+    "32": "test.png",
+    "48": "test.png",
+    "128": "test.png"
+  },
   "permissions": ["declarativeNetRequest"],
   "host_permissions": ["<all_urls>"],
   "declarative_net_request": {
@@ -13,8 +19,10 @@
       }
     ]
   },
+  
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": "test.png"
   },
   "manifest_version": 3
 }
