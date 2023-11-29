@@ -1,8 +1,8 @@
 {
-  "name": "Catifier",
+  "name": "Nestorfier",
   "version": "1.0",
-  "description": "Replace every image by a cat's image in a website you visit",
-  "permissions": ["declarativeNetRequest"],
+  "description": "Replace every image by a Nestor image in a website you visit",
+  "permissions": ["declarativeNetRequest", "storage"],
   "host_permissions": ["<all_urls>"],
   "declarative_net_request": {
     "rule_resources": [
@@ -18,3 +18,5 @@
   },
   "manifest_version": 3
 }
+
+
